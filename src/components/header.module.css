@@ -1,0 +1,9 @@
+/*-------------------------b-header-----------------------------*/
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+    background-color: #2a2c2e;
+    grid-area: hd;
+  }

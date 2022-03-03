@@ -1,0 +1,16 @@
+/*----------------------b-profile-info------------------*/
+
+.b-profile-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .b-profile-info .profile-info__img img {
+    height: 50px;
+  }
+  
+  .profile-info__title h3 {
+    margin: 0;
+  }
