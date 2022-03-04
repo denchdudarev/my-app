@@ -1,23 +1,23 @@
-/*----------------b-navbar----------------*/
+/*----------------navbar----------------*/
 
 .navbar {
     grid-area: nav;
     background: #2a2c2e;
   }
   
-  .navbar__list {
+  .list {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin: 10px;
   }
   
-  .navbar__item {
+  .item {
     font-size: 24px;
     color: #fff;
     text-decoration: none;
   }
   
-  .navbar__item:hover {
+  .item:hover {
     text-decoration: underline;
   }

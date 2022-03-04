@@ -1,0 +1,10 @@
+.myPosts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.formPosts input {
+    width: 100%;
+    min-height: 100px;
+}
