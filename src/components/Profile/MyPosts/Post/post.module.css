@@ -1,0 +1,10 @@
+.post {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
