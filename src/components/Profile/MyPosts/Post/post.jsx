@@ -1,14 +1,17 @@
 import s from "./post.module.css";
 
-function Post() {
+function Post(props) {
     return (
         <div className={s.post}>
-            <div className={s.icon}>
-                <img src="https://w7.pngwing.com/pngs/999/924/png-transparent-chernobyl-disaster-chernobyl-tour-chernobyl-nuclear-power-plant-ionizing-radiation-hazard-symbol-energy.png" alt="" />
+            <img className={s.icon} src="http://www.chornobyl.com.ua/wp-content/uploads/2017/12/1384775795_1026843613.jpg" alt="" />
+            <div className={s.description}>
+               <div className={s.title}>
+                {props.title}
+                </div>
+                <div className={s.dateOfBirth}>
+                    {props.dateOfBirth}
+                </div> 
             </div>
-            <div className="description">
-                Госуда́рственное специализи́рованное предприя́тие «Черно́быльская а́томная электроста́нция и́мени Влади́мира Ильича́ Ле́нина»
-            </div>    
         </div>
     );
 }
