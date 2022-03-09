@@ -10,8 +10,10 @@ function App() {
     <div className="App container">
       <Header />
       <Navbar />
-      <Profile />
-      <Correspondence />
+      <div className="b-content">
+        {/*<Profile />*/}
+        <Correspondence />
+      </div>
     </div>
   );
 }
